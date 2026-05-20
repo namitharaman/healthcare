@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Healthcare Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>Healthcare Dashboard</h1>
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#tips">Health Tips</a>
+        <a href="#contact">Contact</a>
+        <a href="#emergency">Emergency</a>
+
+    </nav>
+
+</header>
+
+<!-- HOME -->
+
+<section class="home" id="home">
+
+    <h2>Stay Healthy Stay Safe</h2>
+
+    <img src="images/doctor.jpg" class="doctor">
+
+    <p>Your health is our priority</p>
+
+</section>
+
+<!-- APPOINTMENT -->
+
+<section class="appointment" id="appointment">
+
+    <h2>Book Appointment</h2>
+
+    <input type="text"
+    placeholder="Enter Name">
+
+    <input type="date">
+
+    <button onclick="bookAppointment()">
+        Book Now
+    </button>
+
+    <p id="appointmentMessage"></p>
+
+</section>
+
+<!-- HEALTH TIPS -->
+
+<section class="tips" id="tips">
+
+    <h2>Health Tips</h2>
+
+    <div class="card">1. Drink More Water</div>
+    <div class="card">2. Exercise Daily</div>
+    <div class="card">3. Eat Healthy Food</div>
+    <div class="card">4. Sleep 8 Hours</div>
+    <div class="card">5. Avoid Junk Food</div>
+    <div class="card">6. Walk Everyday</div>
+    <div class="card">7. Reduce Stress</div>
+    <div class="card">8. Eat Fruits</div>
+    <div class="card">9. Regular Checkup</div>
+    <div class="card">10. Maintain Hygiene</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2>Contact Details</h2>
+
+    <p>Email : healthcare@gmail.com</p>
+
+    <p>Phone : +91 9876543210</p>
+
+</section>
+
+<!-- EMERGENCY -->
+
+<section class="emergency" id="emergency">
+
+    <h2>Emergency Call</h2>
+
+    <button onclick="emergencyCall()">
+        Call 108
+    </button>
+
+    <p id="emergencyMessage"></p>
+
+</section>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
